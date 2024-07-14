@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <title>Yummy</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+
+
+    </head>
+    <body>
+      <nav class="position-fixed">
+        <div class="row ">
+            <div class="col-9 p-4 text-white d-flex flex-column justify-content-between">
+               <div>
+                <ul>
+                    <li id="searchMeal" class="mb-3 mt-3 h4">Search</li>
+                    <li id="category" class="mb-3 h4">Categories</li>
+                    <li id="area" class="mb-3 h4">Area</li>
+                    <li id="Ingredient" class="mb-3 h4">Ingredients</li>
+                    <li id="contact" class="mb-3 h4">Contact Us</li>
+                </ul>
+               </div>
+               <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>
+                    Copyright Â© 2019 All Rights
+Reserved.
+                </p>
+               </div>
+            </div>
+            <div class="col-3 bg-white d-flex flex-column justify-content-between p-2 text-center">
+                <img src="images/logo.png" class="img-fluid" alt="">
+               <div>
+                <i id="show" class="fa-solid open-close-icon fa-2x fa-align-justify "></i>  
+                <i id="show" class="fa-solid open-close-icon fa-2x fa-x d-none"></i>  
+               </div>
+
+                 <div>
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <div >
+        <div  class="container">
+            <div id="body" class="row g-3 my-5">
+
+            </div>
+            
+        </div>
+
+       </div>
+        <div class="loading">
+            <span class="loader"></span>
+        </div>
+       
+       
+        <div id="search" class="container d-none">
+            <div class="row my-5">
+                <input id="searchName" type="text" class="form-control bg-transparent  text-white m-5" placeholder="Search By Name">
+                <input id="searchFirst" type="text" class="form-control bg-transparent  text-white m-5" placeholder="Search By First Letter">
+
+            </div>
+            <div class="container">
+                <div id="searchShow" class="row my-5 g-4 d-none ">
+                    <div  class="col-md-3">
+                        <div id="cover" class="s position-relative overflow-hidden" >
+                            <img src="images/58oia61564916529.jpg" class="img-fluid rounded-2" alt="">
+                            <div  class="img d-flex align-items-center" >
+                                <p class="h1">corba</p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+
+            </div>
+        </div>
+       
+        
+        <script src="js/jquery-3.7.1.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
